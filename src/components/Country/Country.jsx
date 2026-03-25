@@ -11,7 +11,7 @@ const Country = ({country}) => {
                 display : 'flex',
                 alignItems : 'center',
                 justifyContent : 'space-around',
-                fontSize : '18px'
+                fontSize : '18px',
             }}>
             <div>
                 <img src={flags?.flags?.png} alt="" />
