@@ -17,7 +17,8 @@
     color: white;
 }
 .visited-country{
-    background-color:cadetblue;
+    background-color:aquamarine;
+    color: black;
 }
 .Country{
     border : 2px solid white;
