@@ -10,7 +10,7 @@ function App() {
   return (
     <>
      <h1>React world on the go...</h1>
-     <Suspense fallback={<p>Nadir vai loading</p>}>
+     <Suspense fallback={<p>Nadir vai loading...</p>}>
       <Countries countriesPromise={countriesPromise} ></Countries>
      </Suspense>
     </>
