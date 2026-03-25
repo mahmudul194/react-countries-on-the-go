@@ -3,7 +3,7 @@ import React from 'react';
 const Countries = () => {
     return (
         <div>
-            <h1>zIn the countries</h1>
+            <h1>In the countries</h1>
         </div>
     );
 };
