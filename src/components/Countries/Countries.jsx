@@ -7,7 +7,6 @@ const Countries = ({countriesPromise}) => {
     const [visitedFlags, setVisitedFlags] = useState([])
 
     const handleVisitedCountries = (country) =>{
-        console.log('handle visited country clicked.',country);
         const newVisitedCountries = [...visitedCountries, country]
         setVisitedCountries(newVisitedCountries)
     }
